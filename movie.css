@@ -1,0 +1,125 @@
+body{
+    background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/background.png?version=1&modificationDate=1268939512000&api=v2");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.banner *{
+    height: 50px;  
+}
+.banner{
+    background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/bannerbackground.png?version=1&modificationDate=1268939512000&api=v2");
+    background-repeat: repeat-x;
+}
+.title{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+
+.center{
+    width: 800px;
+    margin: 0 auto;
+    border: 4px solid gray;
+}
+
+/* 中心页面左侧 */
+.left{
+    float: left;
+    width: 550px;
+}
+.leftTitle{
+    background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/rottenbackground.png?version=1&modificationDate=1268939585000&api=v2");
+    height: 83px;
+}
+.percent{
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    vertical-align: 13px;
+}
+.leftTitleText{
+    font-size: 8pt;
+    color: white;
+    vertical-align: 13px;
+}
+/* 左侧左部分 */
+.innerLeft{
+    float: left;
+    width: 47%;
+    /* 上下margin共用，左右margin不共用 */
+    margin: 0 1% 0 2%;
+}
+/* 左侧右部分 */
+.innerRight{
+    float: right;
+    width: 47%;
+    margin: 0 2% 0 1%;
+}
+q{
+    font-size: 8pt;
+    font-weight: bold;  
+}
+.quoteBox{
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+    /* 自适应高度 */
+    overflow: hidden;
+}
+.reviewBox{
+    margin-bottom: 3em;
+    /* 自适应高度 */
+    overflow: hidden;
+}
+.career{
+    font-style: italic;
+}
+p>img{
+    float: left;
+    margin-right: 5px;
+}
+/* .left p:nth-child(odd) img{
+    vertical-align: -150%;
+} */
+
+/* 中心页面右侧 */
+.right{
+    float: right;
+    width: 250px;
+}
+.table{
+    margin-top: -5px;
+    padding: 10px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+dt{
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+/* 中心页面底部 */
+.innerFooter{
+    clear: both;
+    background-color: #A2B964;
+    padding: 5px;
+    text-align: center;
+}
+/* 覆盖浏览器对p的设置 */
+.innerFooter p{
+    margin: 0;
+}
+
+.links{
+    float: right;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+.links img{
+    border: none;
+}
