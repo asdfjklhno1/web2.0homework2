@@ -11,6 +11,7 @@ body{
 .banner{
     background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/bannerbackground.png?version=1&modificationDate=1268939512000&api=v2");
     background-repeat: repeat-x;
+    text-align: center;
 }
 .title{
     font-size: 24pt;
@@ -32,6 +33,7 @@ body{
 }
 .leftTitle{
     background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/rottenbackground.png?version=1&modificationDate=1268939585000&api=v2");
+    background-repeat: repeat-x;
     height: 83px;
 }
 .percent{
